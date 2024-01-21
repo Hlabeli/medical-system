@@ -1,4 +1,4 @@
-package model.response;
+package com.thutohealthcare.medicalsystem.model.response;
 
 import lombok.*;
 

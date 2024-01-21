@@ -1,8 +1,8 @@
-package persistence.repository;
+package com.thutohealthcare.medicalsystem.persistence.repository;
 
+import com.thutohealthcare.medicalsystem.persistence.entity.PatientEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
-import persistence.entity.PatientEntity;
 
 import java.sql.Timestamp;
 import java.util.List;

@@ -1,7 +1,7 @@
-package persistence.repository;
+package com.thutohealthcare.medicalsystem.persistence.repository;
 
+import com.thutohealthcare.medicalsystem.persistence.entity.StaffEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
-import persistence.entity.StaffEntity;
 
 import java.util.Optional;
 

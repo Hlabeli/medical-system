@@ -1,4 +1,4 @@
-package model.request;
+package com.thutohealthcare.medicalsystem.model.request;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;

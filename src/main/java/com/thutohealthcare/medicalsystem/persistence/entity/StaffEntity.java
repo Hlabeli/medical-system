@@ -1,4 +1,4 @@
-package persistence.entity;
+package com.thutohealthcare.medicalsystem.persistence.entity;
 
 import jakarta.persistence.*;
 
