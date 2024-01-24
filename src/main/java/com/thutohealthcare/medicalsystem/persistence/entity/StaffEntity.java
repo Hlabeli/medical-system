@@ -1,11 +1,20 @@
 package com.thutohealthcare.medicalsystem.persistence.entity;
 
 import jakarta.persistence.*;
+import lombok.*;
 
 import java.io.Serializable;
 import java.sql.Timestamp;
 import java.util.UUID;
 
+@Entity
+@Table(name = "staff")
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+@ToString
 public class StaffEntity implements Serializable {
 
     @Id

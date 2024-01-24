@@ -1,4 +1,4 @@
-package com.thutohealthcare.medicalsystem.constants;
+package com.thutohealthcare.medicalsystem.core.constants;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

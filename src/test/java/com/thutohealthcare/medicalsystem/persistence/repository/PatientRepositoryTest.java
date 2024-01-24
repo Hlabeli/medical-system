@@ -16,7 +16,7 @@ import java.util.Date;
 import java.util.List;
 import java.security.SecureRandom;
 
-import static com.thutohealthcare.medicalsystem.constants.AppConstant.DateFormatters.AGES;
+import static com.thutohealthcare.medicalsystem.core.constants.AppConstant.DateFormatters.AGES;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 

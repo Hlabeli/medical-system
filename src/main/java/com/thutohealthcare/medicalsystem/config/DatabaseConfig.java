@@ -15,10 +15,6 @@ public class DatabaseConfig {
 
     private final Environment env;
 
-    public DatabaseConfig(Environment env) {
-        this.env = env;
-    }
-
     @Bean
     public DataSource dataSource() {
         return DataSourceBuilder.create()

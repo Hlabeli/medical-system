@@ -3,9 +3,6 @@ package com.thutohealthcare.medicalsystem.persistence.entity;
 import com.github.javafaker.Faker;
 import com.thutohealthcare.medicalsystem.core.utils.AppUtils;
 import org.junit.jupiter.api.BeforeEach;
-
-import com.github.javafaker.Faker;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
