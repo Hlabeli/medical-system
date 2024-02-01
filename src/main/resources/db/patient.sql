@@ -1,0 +1,10 @@
+INSERT INTO medicaldb.patients (id, age, date_created, last_visit_date, name) VALUES (1, 19, '2023-04-18 16:47:57.141000', '2003-12-09 07:19:54.249000', 'Bokang Nul');
+INSERT INTO medicaldb.patients (id, age, date_created, last_visit_date, name) VALUES (2, 20, '2023-04-18 16:47:57.148000', '2016-10-03 11:48:12.073000', 'Thabang Botho');
+INSERT INTO medicaldb.patients (id, age, date_created, last_visit_date, name) VALUES (3, 17, '2023-04-18 16:47:57.155000', '2005-10-03 15:39:48.445000', 'Thabo Iems');
+INSERT INTO medicaldb.patients (id, age, date_created, last_visit_date, name) VALUES (4, 17, '2023-04-18 16:47:57.162000', '2020-02-28 08:59:43.205000', 'Lerato Nhtc');
+INSERT INTO medicaldb.patients (id, age, date_created, last_visit_date, name) VALUES (5, 11, '2023-04-18 16:47:57.168000', '2014-10-21 23:46:51.892000', 'Batho Pele');
+INSERT INTO medicaldb.patients (id, age, date_created, last_visit_date, name) VALUES (6, 19, '2023-04-18 16:47:57.175000', '2016-10-04 07:13:05.553000', 'Lineo Lipam');
+INSERT INTO medicaldb.patients (id, age, date_created, last_visit_date, name) VALUES (7, 18, '2023-04-18 16:47:57.181000', '2003-04-07 10:53:00.923000', 'Dr. Thuto Tsooana');
+INSERT INTO medicaldb.patients (id, age, date_created, last_visit_date, name) VALUES (8, 25, '2023-04-18 16:47:57.187000', '2014-01-15 05:50:10.166000', 'Neo Luct');
+INSERT INTO medicaldb.patients (id, age, date_created, last_visit_date, name) VALUES (9, 22, '2023-04-18 16:47:57.193000', '2004-10-20 17:36:15.906000', 'Rama Cas');
+INSERT INTO medicaldb.patients (id, age, date_created, last_visit_date, name) VALUES (10, 45, '2023-04-18 16:47:57.199000', '2013-12-14 20:45:39.875000', 'Ms. Pully Sello');
