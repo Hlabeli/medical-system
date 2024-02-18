@@ -1,4 +1,4 @@
-package com.thutohealthcare.medicalsystem.persistence.entity.pharmacy;
+package com.thutohealthcare.medicalsystem.persistence.entity.patient;
 
 import com.thutohealthcare.medicalsystem.persistence.entity.common.AbstractEntity;
 import jakarta.persistence.Column;
@@ -8,21 +8,18 @@ import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.Accessors;
 
-import java.math.BigDecimal;
+import java.sql.Timestamp;
 
 @Setter
 @Getter
 @RequiredArgsConstructor
 @NoArgsConstructor
 @Accessors(chain = true)
-public class InventoryEntity extends AbstractEntity {
+public class PatientDiagnosisEntity extends AbstractEntity {
 
-    @Column(name = "item_name")
-    private String itemName;
+    @Column(name = "date_of_diagnosis")
+    private Timestamp dateOfDiagnosis;
 
-    @Column(name = "item_qty")
-    private Integer itemQty;
-
-    @Column(name = "unit_price")
-    private BigDecimal unitPrice;
+    @Column(name = "notes")
+    private String notes;
 }

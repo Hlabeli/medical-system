@@ -1,4 +1,4 @@
-package com.thutohealthcare.medicalsystem.persistence.entity;
+package com.thutohealthcare.medicalsystem.persistence.entity.patient;
 
 import com.thutohealthcare.medicalsystem.persistence.entity.common.AbstractEntity;
 import com.thutohealthcare.medicalsystem.persistence.entity.enums.Gender;
@@ -31,9 +31,11 @@ public class PatientEntity extends AbstractEntity {
     @Column(name = "middle_name")
     private String middleName;
 
+    @NotEmpty(message = "Gender required")
     @Enumerated(value = EnumType.STRING)
     private Gender gender;
 
+    @NotEmpty(message = "Date of birth required")
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     @Column(name = "dob")
     private LocalDate dateOfBirth;

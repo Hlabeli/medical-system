@@ -1,4 +1,4 @@
-package com.thutohealthcare.medicalsystem.persistence.entity;
+package com.thutohealthcare.medicalsystem.persistence.entity.staff;
 
 import com.thutohealthcare.medicalsystem.persistence.entity.common.AbstractEntity;
 import com.thutohealthcare.medicalsystem.persistence.entity.enums.Gender;

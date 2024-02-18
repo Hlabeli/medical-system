@@ -14,9 +14,16 @@ import lombok.experimental.Accessors;
 @RequiredArgsConstructor
 @NoArgsConstructor
 @Accessors(chain = true)
-public class SalutationEntity extends AbstractEntity {
+public class DepartmentEntity extends AbstractEntity {
 
-    @NotEmpty(message = "Title required")
-    @Column(name = "title")
-    private String title;
+    @NotEmpty(message = "Department name required")
+    @Column(name = "name")
+    private String name;
+
+    @Column(name = "tel")
+    private String tel;
+
+    @Column(name = "email")
+    private String email;
+
 }
