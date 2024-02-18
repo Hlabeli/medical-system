@@ -3,7 +3,7 @@ package com.thutohealthcare.medicalsystem.persistence.repository;
 
 import com.github.javafaker.Faker;
 import com.thutohealthcare.medicalsystem.core.utils.AppUtils;
-import com.thutohealthcare.medicalsystem.persistence.entity.PatientEntity;
+import com.thutohealthcare.medicalsystem.persistence.entity.patient.PatientEntity;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
