@@ -1,12 +1,14 @@
 package com.thutohealthcare.medicalsystem.persistence.repository;
 
-import com.thutohealthcare.medicalsystem.persistence.entity.StaffEntity;
-import org.springframework.data.jpa.repository.JpaRepository;
+import com.thutohealthcare.medicalsystem.persistence.entity.staff.StaffEntity;
+import com.thutohealthcare.medicalsystem.persistence.repository.common.IAbstractRepository;
 
 import java.util.Optional;
 
-public interface IStaffRepository extends JpaRepository<StaffEntity, Long> {
+public interface IStaffRepository extends IAbstractRepository<StaffEntity> {
 
     Optional<StaffEntity> findByUuid(String uuid);
+
+    Optional<StaffEntity> findByEmail(String email);
 
 }
