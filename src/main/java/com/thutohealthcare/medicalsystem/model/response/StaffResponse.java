@@ -1,8 +1,11 @@
 package com.thutohealthcare.medicalsystem.model.response;
 
+import com.thutohealthcare.medicalsystem.model.response.common.BaseResponse;
+import com.thutohealthcare.medicalsystem.persistence.entity.enums.Gender;
 import lombok.*;
 
 import java.io.Serializable;
+import java.time.LocalDate;
 
 @Getter
 @Setter
@@ -10,12 +13,15 @@ import java.io.Serializable;
 @AllArgsConstructor
 @Builder
 @ToString
-public class StaffResponse implements Serializable {
+public class StaffResponse extends BaseResponse {
 
-    private Long id;
-    private String name;
+    private String firstName;
+    private String lastName;
+    private Gender gender;
+    private String email;
+    private String phone;
+    private LocalDate dateOfBirth;
     private String uuid;
     private String registrationDate;
-    private String dateCreated;
 
 }
