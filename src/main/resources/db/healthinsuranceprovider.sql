@@ -1,0 +1,1 @@
+INSERT INTO medicaldb.healthinsuranceprovider (id, date_created, name, email, phone, addressLine1, addressLine2, country, district, postalCode) VALUES (1, '2023-04-18 17:03:04.659000', 'Alliance Insurance', 'info@alliance.co.ls', '+26622320000', 'Alliance House, Moshoeshoe Road', '', 'Lesotho', 'Maseru', '100');

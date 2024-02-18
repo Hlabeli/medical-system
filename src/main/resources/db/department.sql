@@ -1,0 +1,1 @@
+INSERT INTO medicaldb.department (id, date_created, name, tel, email) VALUES (1, '2023-04-18 17:03:04.659000', 'Radiology', '+26662000167', 'hlabeli@gmail.com');
